@@ -1,6 +1,5 @@
-import { average, sum } from "./stats";
-import * as statsAsync from "./statsAsync";
-import { describe, expect, it, test } from "./testLib";
+import { average, sum } from "../stats";
+import * as statsAsync from "../statsAsync";
 
 describe("stats should", () => {
     test("return the sum of all the elements of the array with function sum", () => {
